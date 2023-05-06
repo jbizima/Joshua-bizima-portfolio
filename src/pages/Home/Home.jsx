@@ -28,16 +28,16 @@ const Home = () => {
   }
   const [openMenu, setOpenMenu] = useState(false);
 
-  useEffect(() => {
-    axios
-      .get("articles")
-      .then((res) => {
-        setPosts(res.data.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get("articles")
+  //     .then((res) => {
+  //       setPosts(res.data.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
   return (
     <div className="home">
       {/* NavBar */}
@@ -234,7 +234,7 @@ const Home = () => {
         {/* Blogs */}
         <div className="about blogs-link" id="blogs-link">
           <h6>Blogs</h6>
-          <div className="blogs-container">
+          {/* <div className="blogs-container">
             {posts.map((blog) => {
               return (
                 <div className="blogs" key={blog._id}>
@@ -252,7 +252,7 @@ const Home = () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
         {/* Contacts */}
         <div className="contacts-main contacts" id="contacts">
