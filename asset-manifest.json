@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Joshua-bizima-portfolio/static/css/main.59ded959.css",
+    "main.js": "/Joshua-bizima-portfolio/static/js/main.8375e912.js",
+    "static/media/3.JPG": "/Joshua-bizima-portfolio/static/media/3.8b45b6622fed83ba7652.JPG",
+    "static/media/4.jpg": "/Joshua-bizima-portfolio/static/media/4.0b192275dac9b476a04b.jpg",
+    "index.html": "/Joshua-bizima-portfolio/index.html",
+    "main.59ded959.css.map": "/Joshua-bizima-portfolio/static/css/main.59ded959.css.map",
+    "main.8375e912.js.map": "/Joshua-bizima-portfolio/static/js/main.8375e912.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59ded959.css",
+    "static/js/main.8375e912.js"
+  ]
+}
